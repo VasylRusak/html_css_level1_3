@@ -1,0 +1,667 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: Circular-Std;
+    src: url("./assets/fonts/circular-std-medium-500.ttf");
+}
+@font-face {
+    font-family: Quick-Kiss-Personal-Use;
+    src: url("./assets/fonts/Quick-Kiss-Personal-Use.ttf");
+}
+@font-face {
+    font-family: Font-Awersome5;
+    src: url("./assets/fonts/fa-brands-400.ttf");
+}
+body{
+    margin: 0;
+}
+.main-wrapper{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.background-box{
+    display: flex;
+    flex-direction: column;
+    max-height: 966px;
+    width: 100%;  
+    background-image: url('./assets/img/background_top.svg');
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cut-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 68.7%;
+    margin: auto;
+}
+.background-box header{
+    display: flex;
+    justify-content: space-between;   
+}
+.background-box header img{
+    width: 133px;
+    height: 48px;
+    margin-top: 21px;
+}
+.background-box header nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.background-box header nav p{
+    font-family: Poppins-Semibold;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.background-box header nav button{
+    font-family: Poppins-Semibold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F3347;
+    width: 160px;
+    height: 56px;
+    background-color: #FFC814;
+    border: none;
+    border-radius: 4px;
+}
+.left-box{
+    width: 42.6%;
+    display: flex;
+    flex-direction: column;
+}
+.left-box h1{
+    font-family: Poppins-Bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+.left-box p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.left-box .two-buttons{
+    display: flex;
+    width: 60.4%;
+    justify-content: space-between;
+    margin-top: 39.74px;
+}
+.two-buttons .b1{
+    width: 161.08px;
+    height: 60.15px;
+    background-color: #FFC814;
+    border: none;
+    border-radius: 4px;
+    font-family: Poppins-Semibold;
+    font-size: 16px;
+    color: #22283C;
+    line-height: 24px;
+}
+.two-buttons .b2{
+    width: 161.08px;
+    height: 60.15px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-family: Poppins-Semibold;
+    font-size: 16px;
+    color: #181818;
+    line-height: 24px;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    margin-top: 189.04px;
+    position: relative;
+    top: 74px;
+}
+.transport{
+    display: flex;
+    width: 38.65%;
+    justify-content: space-between;
+}
+.transport p{
+    font-family: Poppins-Semibold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+.hotel{
+    width: 120.81px;
+    height: 48.34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #FFC814;
+    display: flex;
+}
+.hotel img{
+    width: 30.2px;
+    height: 32.22px;
+    margin: 0 10.07px 0 10.07px;
+}
+.flight{
+    width: 120.81px;
+    height: 48.34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.flight img{
+    width: 28.19px;
+    height: 30.08px;
+    margin: 0 10.07px 0 10.07px;
+}
+.car{
+    width: 120.81px;
+    height: 48.34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.car img{
+    width: 30.2px;
+    height: 32.22px;
+    margin: 0 10.07px 0 10.07px;
+}
+.ship{
+    width: 120.81px;
+    height: 48.34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.ship img{
+    width: 30.2px;
+    height: 32.22px;
+    margin: 0 10.07px 0 10.07px;
+}
+.transport div{
+    display: flex;
+    align-items: center;
+}
+.reservation{
+    display: flex;
+    max-height: 174px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+    z-index: 1;
+}
+.reservation form{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+.reservation form p{
+    display: flex;
+    flex-direction: column;
+}
+.reservation label{
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    color: #1F3347;
+    line-height: 24px;
+}
+.reservation p:last-child label{
+    visibility: hidden;
+}
+.reservation input{
+    margin-top: 7.52px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 15px;
+    text-indent: 10.07px;
+    width: 171.15px;
+    height: 60.15px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 6px 24px #E4E2EE;
+}
+.reservation #submit{
+    width: 161.08px;
+    height: 60.15px;
+    background-color: #FFC814;
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22283C;
+}
+.travel-img{
+    position: relative;
+    z-index: 0;
+    top: -41px;
+    left: -0.9%;
+    width: 100%;
+}
+.about-agency{
+    display: flex;
+    margin-top: 244.38px;
+    z-index: 1;
+    width: 100%;
+    margin-left: 290.04px;
+}
+.about-agency .pictures-people{
+    display: flex;
+    width: 34.93%;
+    max-height: 621.91px;
+}
+.about-agency .pictures-people img:first-child{
+    width: 71.05%;
+    max-height: 558.54px;
+}
+.about-agency .pictures-people img:last-child{
+    width: 46.1%;
+    max-height: 302.9px;
+    position: relative;
+    top: 52.29%;
+    left: -22.11%;
+}
+.about-agency .agency-info{
+    display: flex;
+    flex-direction: column;
+    width: 27.55%;
+}
+.about-agency .agency-info .reviews{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+}
+.about-agency .agency-info h3{
+    font-family: Quick-Kiss-Personal-Use;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    color: #FFC814;
+    margin: 0;
+}
+.about-agency .agency-info h1{
+    font-family: Poppins-Bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #1F3347;
+    margin: 10.74px 0 0 0;
+}
+.about-agency .agency-info p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+    margin: 31.15px 0 0 0;
+}
+.about-agency .agency-info ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.about-agency .agency-info ul li {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 36px;
+    color: #9DA1B4;
+    margin: 20.41px 0 0 0;
+}
+.about-agency .agency-info ul li span{
+    margin-right: 15.1px;
+    font-family: Font-Awersome5;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9DA1B4;
+}
+.about-agency .agency-info .reviews .time-work{
+    width: 88.6px;
+    height: 85.93px;
+    display: flex;
+    flex-direction: column;
+}
+.about-agency .agency-info .reviews .direction{
+    width: 101.68px;
+    height: 82.71px;
+    display: flex;
+    flex-direction: column;
+}
+.about-agency .agency-info .reviews .customers{
+    width: 104.7px;
+    height: 82.71px;
+    display: flex;
+    flex-direction: column;
+}
+.about-agency .agency-info .reviews h1{
+    font-family: Poppins-Bold;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFC814;
+}
+.about-agency .agency-info .reviews p{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+    margin: 7.52px 0 0 0;
+}
+.about-agency .agency-info button{
+    margin-top: 31.23px;
+    width: 161.08px;
+    height: 60.15px;
+    background-color: #FFC814;
+    border: none;
+    border-radius: 4px;
+    font-family: Circular-Std;
+    font-weight: 900px;
+    font-size: 16px;
+    line-height: 20.24px;
+}
+.about-agency .serf-pic{
+    display: flex;
+    width: 20%;
+    max-height: 492px;
+    margin-left: 24.95px;
+}
+.about-agency .serf-pic img{
+    max-height: 492px;
+    width: 100%;
+    position: relative;
+    top: 26%;
+}
+
+@media (max-width: 1875px) {
+    .left-box .two-buttons {
+        width: 65.4%;
+    }
+    .transport {
+        width: 44.65%;
+    }
+}
+@media (max-width: 1750px) {
+    .left-box .two-buttons {
+        width: 68.4%;
+    }
+    .background-box header nav {
+        width: 83%;
+    }
+    .about-agency {
+        margin-left: 253.04px;
+    }
+}
+@media (max-width: 1692px) {
+    .left-box {
+        width: 47.6%;
+    }
+    .transport {
+        width: 48.65%;
+    }
+}
+@media (max-width: 1575px) {
+    .about-agency{
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 550px;
+    }
+    .about-agency .pictures-people{
+        width: 50%;
+    }
+    .about-agency .agency-info {
+        width: 50%;
+    }
+    .about-agency .serf-pic{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .about-agency .serf-pic img{
+        top: 0;
+        left: 0;
+    }
+    .cut-wrapper{
+        width: 100%;
+    }
+    .main-wrapper{
+        max-width: 1064px;
+        margin: 20px;
+    }
+    .background-box {
+        background-position: -677px 0px;
+    }
+    .background-box header nav {
+        margin-right: 20px;
+        width: 66%;
+    }
+    .background-box header img {
+        margin-left: 20px;
+    }
+    .background-box header nav p:nth-child(1)
+    {
+        display: none;
+    }
+    .background-box header nav p:nth-child(6)
+    {
+        display: none;
+    }
+    .background-box header nav p:nth-child(5)
+    {
+        display: none;
+    }
+    .left-box{
+        margin-left: 20px;
+    }
+    .booking {
+        margin-top: 79px;
+        position: unset;
+        width: 100%;
+        align-items: center;
+    }
+    .transport{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .transport div {
+        width: 50%;
+    }
+    .reservation{
+        flex-direction: column;
+        max-height: fit-content;
+        width: 90%;
+    }
+    .reservation form{
+        flex-direction: column;
+    }
+    .reservation form p {
+        flex-direction: row;
+        align-items: baseline;
+        width: 312px;
+        justify-content: space-between;
+    }
+    .reservation form p input{
+        margin-left: 10px;
+        width: 52%;
+    }
+    .reservation form .subm{
+        justify-content: center;
+        width: 312px;
+    }
+
+    .reservation form p:last-child label{
+        display: none;
+    }
+    .travel-img {
+        display: none;
+    }
+}
+@media (max-width: 1089px) {
+    .left-box {
+        width: 60%;
+    }
+}
+@media (max-width: 880px) {
+    .left-box {
+        width: 80%;
+    }
+    .background-box header nav p:nth-child(4)
+    {
+        display: none;
+    }
+    .about-agency .pictures-people {
+        width: 80%;
+        margin: 0px 0px 82px 0px;
+    }
+    .about-agency .agency-info {
+        width: 75%;
+    }
+    .about-agency .serf-pic {
+        width: 100%;
+    }
+    .about-agency{
+        margin-top: 450px;
+    }
+}
+@media (max-width: 840px) {
+    .about-agency{
+        margin-top: 506px;
+    }
+}
+@media (max-width: 673px) {
+    .about-agency{
+        margin-top: 592px;
+    }
+    .about-agency .pictures-people {
+        width: 100%;
+        margin: 0px 0px 82px 0px;
+    }
+    .about-agency .agency-info {
+        width: 100%;
+    }
+    .background-box header nav p:nth-child(2)
+    {
+        display: none;
+    }
+    .background-box header nav p:nth-child(3)
+    {
+        display: none;
+    }
+    .background-box header nav p:nth-child(7)
+    {
+        display: none;
+    }
+    .background-box header nav {
+        width: 40%;
+    }
+    .background-box {
+        background-position: -898px 0px;
+    }
+    .left-box .two-buttons {
+        width: 88.4%;
+    }
+}
+@media (max-width: 607px) {
+    .left-box .two-buttons {
+        width: 100%;
+    }
+    .background-box header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .background-box header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .background-box header img {
+        margin-left: 0;
+    }
+    .about-agency{
+        margin-top: 708px;
+    }
+
+}
+@media (max-width: 602px) {
+    .booking {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 504px) {
+    .about-agency{
+        margin-top: 733px;
+    }
+}
+@media (max-width:482px) {
+    .left-box .two-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100.7px;
+        margin-bottom: 20px;
+    }
+    .left-box .two-buttons .b1{
+        margin-bottom: 10.7px;
+    }
+    .left-box .two-buttons .b2{
+        background-color: lightgray;
+    }
+    .about-agency{
+        margin-top: 900px;
+    }
+    .background-box {
+        background-position: -1234px 0px;
+    }
+}
+@media (max-width:488px) {
+    .about-agency{
+        margin-top: 967px;
+    }
+}
+@media (max-width:450px) {
+    .about-agency{
+        margin-top: 1040px;
+    }
+    .left-box h1 {
+        margin-bottom: 0;
+    }
+}
+@media (max-width:409px) {
+    .about-agency{
+        margin-top: 1089px;
+    }
+    .reservation form p input {
+        width: 40%;
+        margin-right: 16px;
+    }
+    .reservation form p label{
+        margin-left: 19px;
+    }
+}
+@media (max-width:387px) {
+    .about-agency{
+        margin-top: 1083px;
+    }
+    .left-box h1 {
+        margin-top: 5px;
+    }
+    .left-box .two-buttons {
+        margin-top: 17px;
+    }
+}
